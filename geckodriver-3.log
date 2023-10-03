@@ -1,0 +1,29 @@
+1696363248133	geckodriver	INFO	Listening on 127.0.0.1:56936
+1696363251239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56937" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilegFRfWE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696363251873	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1696363252001	Marionette	INFO	Listening on port 56946
+WebDriver BiDi listening on ws://127.0.0.1:56937
+Read port: 56946
+1696363252176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56937/devtools/browser/fcd5d986-533c-4ea8-a8bc-2f3973730686
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.guru99.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.guru99.com."
+JavaScript error: , line 0: uncaught exception: undefined
+1696363259263	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=demo.guru99.com#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22guru99.com%22,%22topUrl%22:%22demo.guru99.com%22,%22version%22:141,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.8523077501705575%22}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=demo.guru99.com#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22guru99.com%22,%22topUrl%22:%22demo.guru99.com%22,%22version%22:141,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.8523077501705575%22}:14:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=demo.guru99.com#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22guru99.com%22,%22topUrl%22:%22demo.guru99.com%22,%22version%22:141,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertagids%22,%22requestId%22:%220.8523077501705575%22}:14:3642
+
+1696363260385	Marionette	INFO	Stopped listening on port 56946
+JavaScript warning: https://f507994e3697bbde47ed93ffd7c2ab23.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 12: Script terminated by timeout at:
+n@https://f507994e3697bbde47ed93ffd7c2ab23.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html:12:90
+@https://f507994e3697bbde47ed93ffd7c2ab23.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html:16:2932
+@https://f507994e3697bbde47ed93ffd7c2ab23.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html:16:5647
+
+JavaScript warning: https://fdyn.pubwise.io/script/b7da2361-4ada-4374-9097-af748311b5fe/v3/dyn/pws.js, line 1239: Script terminated by timeout at:
+b@https://fdyn.pubwise.io/script/b7da2361-4ada-4374-9097-af748311b5fe/v3/dyn/pws.js:1239:654
+
+Dynamically enable window occlusion 1

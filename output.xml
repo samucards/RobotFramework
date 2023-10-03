@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20231003 17:01:43.688" rpa="false" schemaversion="4">
+<suite id="s1" name="Tests Cadastro" source="c:\Users\User\Desktop\Robot\Testes_phpTravels\TestCase\Cadastro\Tests_Cadastro.robot">
+<test id="s1-t1" name="Caso de Teste 2 – Realizar reserva de passagem" line="26">
+<kw name="Abrir o navegador" library="Key_Cadastro" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about:blank</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231003 17:01:44.011" level="INFO">Opening browser 'Firefox' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20231003 17:01:44.011" endtime="20231003 17:01:50.289"/>
+</kw>
+<status status="PASS" starttime="20231003 17:01:44.009" endtime="20231003 17:01:50.289"/>
+</kw>
+<kw name="Dado que o usuário esteja no site &quot;https://demo.guru99.com/test/newtours/&quot;" library="Key_Cadastro" sourcename="Dado que o usuário esteja no site &quot;${URL}&quot;">
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20231003 17:01:50.289" level="INFO">Opening url 'https://demo.guru99.com/test/newtours/'</msg>
+<status status="PASS" starttime="20231003 17:01:50.289" endtime="20231003 17:01:53.469"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231003 17:01:53.469" endtime="20231003 17:01:53.759"/>
+</kw>
+<status status="PASS" starttime="20231003 17:01:50.289" endtime="20231003 17:01:53.759"/>
+</kw>
+<kw name="Quando realizar a reserva de destino" library="Key_Cadastro">
+<msg timestamp="20231003 17:01:53.761" level="FAIL">User keyword cannot be empty.</msg>
+<status status="FAIL" starttime="20231003 17:01:53.761" endtime="20231003 17:01:53.765"/>
+</kw>
+<kw name="Então reserva será realizada com sucesso" library="Key_Cadastro">
+<status status="NOT RUN" starttime="20231003 17:01:53.767" endtime="20231003 17:01:53.767"/>
+</kw>
+<kw name="Fechar o navegador" library="Key_Cadastro" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231003 17:01:53.771" endtime="20231003 17:01:57.157"/>
+</kw>
+<status status="PASS" starttime="20231003 17:01:53.769" endtime="20231003 17:01:57.157"/>
+</kw>
+<status status="FAIL" starttime="20231003 17:01:44.009" endtime="20231003 17:01:57.159">User keyword cannot be empty.</status>
+</test>
+<doc>Testes de Cadastro</doc>
+<status status="FAIL" starttime="20231003 17:01:43.693" endtime="20231003 17:01:57.169"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tests Cadastro">Tests Cadastro</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231003 17:01:44.000" level="ERROR">Error in file 'c:\Users\User\Desktop\Robot\Testes_phpTravels\KeyWords\Key_Cadastro.robot' on line 60: Creating keyword 'Então reserva será realizada com sucesso' failed: User keyword cannot be empty.</msg>
+<msg timestamp="20231003 17:01:44.000" level="ERROR">Error in file 'c:\Users\User\Desktop\Robot\Testes_phpTravels\KeyWords\Key_Cadastro.robot' on line 62: Creating keyword 'Quando realizar a reserva de destino' failed: User keyword cannot be empty.</msg>
+</errors>
+</robot>
